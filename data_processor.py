@@ -9,7 +9,7 @@ from langchain.embeddings import OpenAIEmbeddings
 bible = read_web()
 
 # get API key from top-right dropdown on OpenAI website
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'Your API Key'
 
 def get_books() -> List[str]:
     """Get list of books in bible."""
